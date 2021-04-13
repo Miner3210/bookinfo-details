@@ -1,8 +1,8 @@
 services:
-  ratings:
+  details:
     build: .
-    image: detail-service:dev
+    image: ghcr.io/miner3210/bookinfo-details:prd
     ports:
-      - "8080:8080"
+      - "1010:1010"
     environment:
       SERVICE_VERSION: v1
